@@ -13,7 +13,7 @@ footer
 .wrapper > div 
 {
     float: left; padding: 10px; 
-    background: blue; color: #fff; 
+    background:  color: 
     width: 30%; 
     margin: 10px;
 }
@@ -28,22 +28,18 @@ footer
     
     .wrapper  .box1  
     {
-        background: yellow;
+        background: 
     }
     
-    .wrapper .box1::before 
-    {
-        content: "Jag heter Håkan!";
-    } 
-    
+   
     .wrapper  .box2  
     {
-        background: purple;
+        background: 
     }
     
     .wrapper  .box3
     {
-        background: green;
+        background: 
     }
 }
     
@@ -57,7 +53,7 @@ footer
         
         .wrapper  .box1  
         {
-            background: yellow;
+            background: 
         }
 
         .wrapper .box1::before 
@@ -67,7 +63,7 @@ footer
 
         .wrapper  .box2  
         {
-            background: purple;
+            background: 
         }
     
         .wrapper  .box3  
