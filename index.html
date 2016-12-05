@@ -1,23 +1,49 @@
 ﻿<!DOCTYPE html>
 <html>
-  <title>ComputerShop Inc.</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-  <link rel="stylesheet" href="style.css">
-  <meta charset="UTF-8">
+<head>
+    <title>ComputerShop Inc.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <meta charset="UTF-8">
+</head>
   <body>
 
-    <header class="w3-container w3-red">
-      <h1>Header</h1>
-    </header>
 
+      <div>
+          <nav class="navbar navbar-default navigation-clean">
+              <div class="container">
+                  <div class="navbar-header">
+                      <a href="#" class="navbar-brand navbar-link">Company Name</a>
+                      <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                  </div>
+                  <div class="collapse navbar-collapse" id="navcol-1">
+                      <ul class="nav navbar-nav navbar-right">
+                          <li class="active" role="presentation"><a href="#">First Item</a></li>
+                          <li role="presentation"><a href="#">Second Item</a></li>
+                          <li role="presentation"><a href="#">Third Item</a></li>
+                          <li class="dropdown">
+                              <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Dropdown <span class="caret"></span></a>
+                              <ul class="dropdown-menu" role="menu">
+                                  <li role="presentation"><a href="#">First Item</a></li>
+                                  <li role="presentation"><a href="#">Second Item</a></li>
+                                  <li role="presentation"><a href="#">Third Item</a></li>
+                              </ul>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+      </div>
     <div class="wrapper">
       <div class="box1">Box 1</div>
       <div class="box2">Box 2</div>
       <div class="box3">Box 3</div>
     </div>
       
-    <footer class="w3-container w3-red">
+    <footer class="w3-container">
       <h1>Footer</h1>
     </footer>
 
