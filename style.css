@@ -13,7 +13,7 @@ footer
 .wrapper > div 
 {
     float: left; padding: 10px; 
-    background:  color: 
+    background: blue; color: #fff; 
     width: 30%; 
     margin: 10px;
 }
@@ -28,18 +28,22 @@ footer
     
     .wrapper  .box1  
     {
-        background: 
+        background: yellow;
     }
     
-   
+    .wrapper .box1::before 
+    {
+        content: "Jag heter Håkan!";
+    } 
+    
     .wrapper  .box2  
     {
-        background: 
+        background: purple;
     }
     
-    .wrapper  .box3
+    .wrapper  .box3  
     {
-        background: 
+        background: green;
     }
 }
     
@@ -53,7 +57,7 @@ footer
         
         .wrapper  .box1  
         {
-            background: 
+            background: yellow;
         }
 
         .wrapper .box1::before 
@@ -63,7 +67,7 @@ footer
 
         .wrapper  .box2  
         {
-            background: 
+            background: purple;
         }
     
         .wrapper  .box3  
@@ -71,41 +75,3 @@ footer
             display: none;
         }
     }
-
-
-
-
-@keyframes slidy 
-{
-    0% { left: 0%; }
-    20% { left: 0%; }
-    25% { left: -100%; }
-    45% { left: -100%; }
-    50% { left: -200%; }
-    70% { left: -200%; }
-    75% { left: -300%; }
-    95% { left: -300%; }
-    100% { left: -400%; }
-}
-
-div#slider 
-{ 
-    overflow: hidden; 
-    height:200px;
-}
-
-div#slider figure img 
-{ 
-    width: 20%; float: right; 
-}
-
-div#slider figure 
-{ 
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 30s slidy infinite; 
-}
