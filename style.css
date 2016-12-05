@@ -27,21 +27,6 @@ footer
         float: none;
         width: 100%;
     }
-    
-    .wrapper  .box1  
-    {
-        background: yellow;
-    }
-    
-    .wrapper  .box2  
-    {
-        background: purple;
-    }
-    
-    .wrapper  .box3  
-    {
-        background: green;
-    }
 }
     
     @media screen and (max-width: 480px) 
@@ -52,25 +37,7 @@ footer
             width: 100%;
         }
         
-        .wrapper  .box1  
-        {
-            background: yellow;
-        }
-
-        .wrapper .box1::before 
-        {
-            content: none;
-        } 
-
-        .wrapper  .box2  
-        {
-            background: purple;
-        }
-    
-        .wrapper  .box3  
-        {
-            display: none;
-        }
+      
     }
 
 
@@ -123,7 +90,9 @@ div#slider figure
     width:100%;
     margin-bottom:5px;
 }
-
+form-control search-field {
+    background-color: #ffffff;
+}
 .topNavBG
 {
     background-color:#202020;
