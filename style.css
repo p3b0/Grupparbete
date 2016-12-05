@@ -12,11 +12,12 @@ footer
 
 .wrapper > div 
 {
-    float: left; padding: 10px; 
-    background: blue; color: #fff; 
+    float: left; 
+    padding: 10px; 
+    color: #000; 
     width: 15%; 
     margin: 30px;
-    height:200px;
+    height:225px;
 }
 
 @media screen and (max-width: 960px) 
@@ -31,11 +32,6 @@ footer
     {
         background: yellow;
     }
-    
-    .wrapper .box1::before 
-    {
-        content: "Jag heter Håkan!";
-    } 
     
     .wrapper  .box2  
     {
@@ -82,6 +78,7 @@ footer
 {
     text-align:center;
     font-weight:bold;
+    font-size:large;
 }
 
 
@@ -102,6 +99,7 @@ div#slider
 { 
     overflow: hidden; 
     height:300px;
+    margin-bottom:25px;
 }
 
 div#slider figure img 
