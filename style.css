@@ -78,6 +78,11 @@ footer
     }
 
 
+.categories
+{
+    text-align:center;
+    font-weight:bold;
+}
 
 
 @keyframes slidy 
@@ -113,4 +118,10 @@ div#slider figure
   text-align: left;
   font-size: 0;
   animation: 30s slidy infinite; 
+}
+
+.box1 > img
+{
+    width:100%;
+    margin-bottom:5px;
 }
